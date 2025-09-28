@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font/sans'
 import { GeistMono } from 'geist/font/mono'
-import { Analytics } from '@vercel/analytics/next'
+// ...existing code...
 import './globals.css'
 import VisualEditsMessenger from "../visual-edits/VisualEditsMessenger";
 import ErrorReporter from "@/components/ErrorReporter";
@@ -142,7 +142,7 @@ export default function RootLayout({
             </a>
           </Button>
         </div>
-        <Analytics />
+  {/* ...existing code... */}
         <VisualEditsMessenger />
       </body>
     </html>

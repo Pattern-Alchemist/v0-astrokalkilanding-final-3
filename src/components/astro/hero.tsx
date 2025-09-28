@@ -215,7 +215,7 @@ export function Hero() {
               poster={"/astrology-intro-video-poster.jpg"}
             >
               <source
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Whisk_ygn1imzzcjzyimnm1ynmvdotidnwqtlhzdzy0yn-zgnHxnxXAnM77NRNGRN4pv45SWa9MZ.mp4"
+                src="/placeholder.mp4" // TODO: Replace with your own video URL
                 type="video/mp4"
               />
             </video>
