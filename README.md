@@ -1,30 +1,38 @@
-# astrokalkilanding
+# AstroKalki Landing
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
-
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/kosmicsutra777-7994s-projects/v0-astrokalkilanding)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/nww3w76LfxK)
+This is the landing page for AstroKalki, built with Next.js and React.
 
 ## Overview
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+This repository contains the source code for the AstroKalki landing page, including all components, styles, and assets.
 
 ## Deployment
 
-Your project is live at:
+You can deploy this project to any platform that supports Node.js and Next.js, such as Netlify, Render, Railway, or your own server.
 
-**[https://vercel.com/kosmicsutra777-7994s-projects/v0-astrokalkilanding](https://vercel.com/kosmicsutra777-7994s-projects/v0-astrokalkilanding)**
+### Local Development
 
-## Build your app
+1. Install dependencies:
+	```bash
+	npm install
+	```
+2. Start the development server:
+	```bash
+	npm run dev
+	```
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Continue building your app on:
+### Production Build
 
-**[https://v0.app/chat/projects/nww3w76LfxK](https://v0.app/chat/projects/nww3w76LfxK)**
+1. Build the app:
+	```bash
+	npm run build
+	```
+2. Start the production server:
+	```bash
+	npm start
+	```
 
-## How It Works
+## Customization
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+Feel free to modify the components and styles to fit your needs.
